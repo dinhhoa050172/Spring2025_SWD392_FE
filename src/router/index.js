@@ -1,0 +1,45 @@
+const routes = {
+  home: "/",
+  notFound: "/not-found",
+  registerVaccination: "/register-for-vaccination",
+  aboutUs: "/About-us",
+  blog: "/blog",
+  blogDetail: "/blog/detail/:id",
+  vaccinationGuide: "/vaccination-guide",
+  service: "/services",
+  vaccinePrice: "/vaccine-price",
+  emailVerify: "/email-verify",
+  auth: {
+    login: "/auth/login",
+    register: "/auth/register",
+  },
+  user: {
+    profile: "/user/profile",
+    registerProfileChild: "/user/register-profile-child",
+    selfSchedule: "/user/self-schedule",
+    feedback: "/user/feedback",
+    transaction: "/user/transaction",
+    record: "/user/record",
+    cancelSchedule: "/user/cancel-schedule",
+  },
+  admin: {
+    dashboard: "/admin/dashboard",
+    adminVaccine: "/admin/vaccine",
+    adminPackageVaccine: "/admin/package-vaccine",
+    blog: "/admin/blog",
+    user: "/admin/user",
+    diseasetype: "/admin/diseasetype",
+    RequestImportInvoice: "/admin/request-import-invoice",
+  },
+  staff: {
+    request: "/staff/request",
+    viewCanceledSchedule: "/staff/canceled-schedule",
+    blog: "/staff/blog",
+    viewScheduleAll: "/staff/view-schedule-all",
+    coldStorage: "/staff/cold-storage",
+    RequestImportInvoice: "/staff/request-import-invoice",
+    VaccinePatch: "/staff/vaccine-patch",
+  },
+};
+
+export default routes;

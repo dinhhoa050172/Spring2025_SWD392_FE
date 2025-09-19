@@ -1,0 +1,58 @@
+/* LayoutAuth.css */
+.layout-auth {
+    position: relative;
+    min-height: 100vh; /* Đảm bảo chiều cao là toàn bộ màn hình */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .layout-auth-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://i.pinimg.com/736x/86/ec/b9/86ecb9603d0f65a098059b21a8c6f64f.jpg");
+    background-position: center; /* Căn giữa hình ảnh */
+    opacity: 0.3; /* Đặt độ mờ cho background */
+    z-index: 0; /* Đảm bảo background ở dưới cùng */
+  }
+  
+/* Logo Container */
+.logo-container {
+  background-color: white;
+
+
+}
+
+/* Logo Style */
+.logo-app {
+  width: 150px; /* Đặt kích thước cho logo */
+  height: auto; /* Giữ tỷ lệ gốc */
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2)); /* Thêm bóng để nổi bật hơn */
+  border-radius: 50%;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  /* Độ rộng thanh cuộn */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Màu nền của track */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Màu thanh cuộn */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Màu khi hover */
+}
+  

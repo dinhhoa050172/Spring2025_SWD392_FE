@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "module": "Node16",
+        "moduleResolution": "node16",
+        "target": "ES2022",
+        "allowJs": true,
+        "jsx": "react",
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "baseUrl": "./",
+        "paths": {
+            "@pages/*": [
+                "src/page/*"
+            ],
+            "@containers/*": [
+                "src/container/*"
+            ],
+            "@layouts/*": [
+                "src/layout/*"
+            ],
+            "@routes/*": [
+                "src/routes/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@utils/*": [
+                "src/utils/*"
+            ],
+            "@src/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
